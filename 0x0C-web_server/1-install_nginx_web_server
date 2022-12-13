@@ -2,7 +2,7 @@
 # Installs nginx web server and configure index file:
 #+    Listens on port 80
 #+    Returns a page containing "Hello World!" when queried at the root with a
-      curl GET request
+#++      curl GET request
 
 sudo apt-get update
 sudo apt-get -y install nginx
