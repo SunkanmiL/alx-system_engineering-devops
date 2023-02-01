@@ -8,7 +8,7 @@ def recurse(subreddit, hot_list=[], after="", count=0):
     """Return titles of all hot articles given a subreddit"""
     BASE_URL = 'https://api.reddit.com'
     headers = {
-        "User-Agent": "ChangeMeClient/0.1 by kolaoba"
+        "User-Agent": "ChangeMeClient/0.1 by Sunkanmi"
     }
     params = {
         "after": after,
