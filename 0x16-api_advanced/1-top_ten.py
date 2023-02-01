@@ -7,7 +7,7 @@ def top_ten(subreddit):
     """Return first 10 hot posts given a subreddit"""
     BASE_URL = 'https://api.reddit.com'
     headers = {
-        "User-Agent": "ChangeMeClient/0.1 by kolaoba"
+        "User-Agent": "ChangeMeClient/0.1 by Sunkanmi"
     }
     params = {
         "limit": 10
